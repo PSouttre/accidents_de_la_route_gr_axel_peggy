@@ -19,3 +19,5 @@ plt.figure(figsize=(10,8))
 sns.heatmap(corr, cmap='coolwarm', annot=True, linewidth=0.9)
 
 st.pyplot(plt) # Afficher le graphique dans Streamlit
+
+print(df.dtypes)
